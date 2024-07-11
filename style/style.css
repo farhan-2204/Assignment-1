@@ -154,5 +154,49 @@ letter-spacing: 0%;
     border-radius: 16px;
 }
 
+.target{
+    margin: 0px 150px 200px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.target .skills{
+    margin-top: 48px;
+    display: flex;
+    gap: 10px;
+}
+
+.target .skills .language{
+    border-radius: 16px;
+    width: 284px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.skill-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.skill-link{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin-top: 24px;
+}
+
 
 
