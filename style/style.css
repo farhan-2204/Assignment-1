@@ -6,6 +6,41 @@
     font-family: Azeret Mono;
 }
 
+/* Universal classes */
+.subtitle-font{
+    color: rgba(13, 19, 33, .7);
+    font-size: 16px;
+    font-weight: 480;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.title-font{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0%;
+}
+
+.btn1{
+/* button */
+position: static;
+width: 170px;
+height: 48px;
+margin: 32px 0px;
+background-color: rgba(50, 50, 50, 0.105);
+border: 2px solid rgb(13, 19, 33);
+
+/* font */
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+}
+
 /* Hero Section */
 .hero{
     background-image: url(../assets/Hero-bg\ -\ Copy.png);
@@ -27,11 +62,6 @@
 }
 
 .hero-subtitle{
-    color: rgba(13, 19, 33, .7);
-    font-size: 16px;
-    font-weight: 480;
-    line-height: 26px;
-    letter-spacing: 0%;
     margin-top: 32px;
     padding: 0px 100px;
 }
@@ -51,5 +81,54 @@
     line-height: 23px;
     letter-spacing: 0%;
 }
+
+/* Goal section */
+.goal{
+    margin: 80px 150px 0px 150px;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, .03);
+}
+
+.goal-heading{
+    position: static;
+    margin: 0px 47px;
+    text-align: center;
+}
+
+.goal-content{
+    margin: 48px 0px 32px 0px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.invert{
+    margin-bottom: 32px;
+    justify-content: flex-start;
+    gap: 32px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.goal-content .description{
+    color: rgba(13, 19, 33, 0.7);
+    width: 390px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.invert{}
+
+.goal-content img{
+    height: 250px;
+}
+
+
+
 
 
