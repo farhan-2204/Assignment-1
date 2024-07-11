@@ -128,7 +128,31 @@ letter-spacing: 0%;
     height: 250px;
 }
 
+/* inspiration section */
+.inspiration {
+    margin: 80px 150px 151px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.video-link {
+    box-sizing: border-box;
+    border: 2px solid rgba(13, 19, 33, 0.6);
+    border-radius: 16px;
+    margin-top: 48px;
+    width: 1114px;
+    height: 614px;
+    padding: 32px; 
+    background: url(Jhankar);
+}
+
+.video-link iframe {
+    width: 1046px;
+    height: 550px;
+    border-radius: 16px;
+}
 
 
 
